@@ -3,7 +3,7 @@ package model;
 /**
  * Created by subash on 8/25/19.
  */
-public class Person {
+public class Person extends BaseEntity{
 
     private String firstName;
     private String lastName;

@@ -1,9 +1,10 @@
 package model;
 
+
 /**
  * Created by subash on 8/25/19.
  */
-public class PetType {
+public class PetType extends BaseEntity {
 
     private  String name;
 
