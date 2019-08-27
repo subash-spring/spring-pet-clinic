@@ -13,7 +13,6 @@ public class IndexController {
 
     @RequestMapping({"","/","index","index.html"})
     public String index() {
-        System.out.println("Reached subash");
         return "index";
     }
 
