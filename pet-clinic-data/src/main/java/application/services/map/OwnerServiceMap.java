@@ -1,7 +1,8 @@
-package com.subash.petclinicdata.services.map;
+package application.services.map;
 
-import com.subash.petclinicdata.model.Owner;
-import com.subash.petclinicdata.services.OwnerService;
+import application.model.Owner;
+import application.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -9,7 +10,7 @@ import java.util.Set;
  * Created by subash on 8/26/19.
  */
 
-
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
 
     @Override

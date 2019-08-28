@@ -1,11 +1,13 @@
-package com.subash.petclinicdata.services.map;
-import com.subash.petclinicdata.model.Pet;
-import com.subash.petclinicdata.services.PetService;
+package application.services.map;
+
+import application.model.Pet;
+import application.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 
-
+@Service
 public class PetServiceMap extends AbstractMapService<Pet,Long> implements PetService {
 
     @Override

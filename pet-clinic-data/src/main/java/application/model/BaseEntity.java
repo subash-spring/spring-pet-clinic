@@ -1,4 +1,4 @@
-package com.subash.petclinicdata.model;
+package application.model;
 
 import java.io.Serializable;
 

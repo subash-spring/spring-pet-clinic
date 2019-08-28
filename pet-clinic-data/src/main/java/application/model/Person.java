@@ -1,4 +1,4 @@
-package com.subash.petclinicdata.model;
+package application.model;
 
 /**
  * Created by subash on 8/25/19.

@@ -1,11 +1,12 @@
-package com.subash.petclinicdata.services;
+package application.services;
 
-import com.subash.petclinicdata.model.Owner;
+import application.model.Owner;
 
 
 /**
  * Created by subash on 8/25/19.
  */
+
 public interface OwnerService extends CrudService<Owner,Long> {
 
     Owner findByLastName(String lastName);
