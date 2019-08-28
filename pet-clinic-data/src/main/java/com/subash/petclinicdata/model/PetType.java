@@ -1,4 +1,4 @@
-package model;
+package com.subash.petclinicdata.model;
 
 
 /**

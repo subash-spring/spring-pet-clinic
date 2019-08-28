@@ -1,6 +1,6 @@
-package services;
+package com.subash.petclinicdata.services;
 
-import model.Owner;
+import com.subash.petclinicdata.model.Owner;
 
 
 /**
