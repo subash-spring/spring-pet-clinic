@@ -2,9 +2,11 @@ package application.services.map;
 
 import application.model.Visit;
 import application.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit,Long> implements VisitService {
 
 
@@ -23,11 +25,11 @@ public class VisitMapService extends AbstractMapService<Visit,Long> implements V
         super.delete(object);
     }
 
+    // || object.getPet().getId() == null || object.getPet().getOwner().getId() == null
     @Override
     public Visit save(Visit object) {
         if(object.getPet() == null
-                || object.getPet().getOwner() == null
-                || object.getPet().getId() == null || object.getPet().getOwner().getId() == null) {
+                || object.getPet().getOwner() == null) {
             throw new RuntimeException("Invalid Visit");
         }
         return super.save(object);
